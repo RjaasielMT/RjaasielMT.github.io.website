@@ -1,0 +1,133 @@
+body {
+    background-color:#b6b6b6;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+h4 {
+    font-size: 1.5rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
+
+.copy {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.backgroundimage {
+    background-image: url(banner1.jpg);
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    padding: 5%;
+    text-align: left;
+}    
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited {
+    color: #1f1a1a;
+}
+a:hover {
+    color: #F08080
+}
+a:active {
+    color: black;
+}
+
+.flex-container {
+    background-color: #c9377bb6;
+    border-radius: 20px;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    display: inline-block;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: bolder;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+nav li {
+    display: inline-block;
+    justify-content: center;
+    padding: 2%;
+}
+.copy {
+    display: flex;
+    justify-content: flex-end;
+}
+.container {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: #c9377b15;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center;
+    margin: 30px;
+    margin-left: 0;
+    padding-bottom: 2%;
+}
+
+.box2 {
+    background-color: #c9377b15;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center;
+    margin: 30px;
+}
+.box3 {
+    background-color: #c9377b15;
+    border-radius: 20px;
+    padding: 1%;
+    text-align: center;
+    margin: 30px;
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #dfdddd;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
